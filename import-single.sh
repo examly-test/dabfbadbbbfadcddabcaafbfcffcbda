@@ -1,0 +1,1 @@
+mongoimport --db pdtest --collection testcollection --file accounts.json --jsonArray
