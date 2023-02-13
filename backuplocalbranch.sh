@@ -1,0 +1,1 @@
+if [ true ]; then ( (mkdir local-branch-backup || echo "local-branch-backup folder already exist") && cp .git/refs/heads/* local-branch-backup) || (echo "unable to backup local branch" ) fi
